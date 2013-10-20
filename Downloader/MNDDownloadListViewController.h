@@ -1,5 +1,5 @@
 //
-//  MNDViewController.h
+//  MNDDownloadListViewController.h
 //  Downloader
 //
 //  Created by Haldun Bayhantopcu on 20/10/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MNDViewController : UIViewController
+@interface MNDDownloadListViewController : UITableViewController
 
 @end

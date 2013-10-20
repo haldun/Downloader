@@ -14,13 +14,18 @@
 		274C76271813AA3D00B13305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C76261813AA3D00B13305 /* main.m */; };
 		274C762B1813AA3D00B13305 /* MNDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C762A1813AA3D00B13305 /* MNDAppDelegate.m */; };
 		274C762E1813AA3D00B13305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274C762C1813AA3D00B13305 /* Main.storyboard */; };
-		274C76311813AA3D00B13305 /* MNDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C76301813AA3D00B13305 /* MNDViewController.m */; };
 		274C76331813AA3D00B13305 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274C76321813AA3D00B13305 /* Images.xcassets */; };
 		274C763A1813AA3D00B13305 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C76391813AA3D00B13305 /* XCTest.framework */; };
 		274C763B1813AA3D00B13305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C761A1813AA3D00B13305 /* Foundation.framework */; };
 		274C763C1813AA3D00B13305 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C761E1813AA3D00B13305 /* UIKit.framework */; };
 		274C76441813AA3D00B13305 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274C76421813AA3D00B13305 /* InfoPlist.strings */; };
 		274C76461813AA3D00B13305 /* DownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C76451813AA3D00B13305 /* DownloaderTests.m */; };
+		274C76511813AA7100B13305 /* MNDPodcastListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C76501813AA7100B13305 /* MNDPodcastListViewController.m */; };
+		274C76571813AB1800B13305 /* Downloader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 274C76551813AB1800B13305 /* Downloader.xcdatamodeld */; };
+		274C765A1813ACC500B13305 /* MNDDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C76591813ACC500B13305 /* MNDDownload.m */; };
+		274C765D1813AD3400B13305 /* MNDDownloadListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C765C1813AD3400B13305 /* MNDDownloadListViewController.m */; };
+		274C76601813AD6F00B13305 /* MNDDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C765F1813AD6F00B13305 /* MNDDataModel.m */; };
+		274C76631813B02800B13305 /* MNDPodcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C76621813B02800B13305 /* MNDPodcast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,23 @@
 		274C76291813AA3D00B13305 /* MNDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNDAppDelegate.h; sourceTree = "<group>"; };
 		274C762A1813AA3D00B13305 /* MNDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNDAppDelegate.m; sourceTree = "<group>"; };
 		274C762D1813AA3D00B13305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		274C762F1813AA3D00B13305 /* MNDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNDViewController.h; sourceTree = "<group>"; };
-		274C76301813AA3D00B13305 /* MNDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNDViewController.m; sourceTree = "<group>"; };
 		274C76321813AA3D00B13305 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		274C76381813AA3D00B13305 /* DownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274C76391813AA3D00B13305 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		274C76411813AA3D00B13305 /* DownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DownloaderTests-Info.plist"; sourceTree = "<group>"; };
 		274C76431813AA3D00B13305 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		274C76451813AA3D00B13305 /* DownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloaderTests.m; sourceTree = "<group>"; };
+		274C764F1813AA7100B13305 /* MNDPodcastListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDPodcastListViewController.h; sourceTree = "<group>"; };
+		274C76501813AA7100B13305 /* MNDPodcastListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDPodcastListViewController.m; sourceTree = "<group>"; };
+		274C76561813AB1800B13305 /* Downloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Downloader.xcdatamodel; sourceTree = "<group>"; };
+		274C76581813ACC500B13305 /* MNDDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDDownload.h; sourceTree = "<group>"; };
+		274C76591813ACC500B13305 /* MNDDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDDownload.m; sourceTree = "<group>"; };
+		274C765B1813AD3400B13305 /* MNDDownloadListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDDownloadListViewController.h; sourceTree = "<group>"; };
+		274C765C1813AD3400B13305 /* MNDDownloadListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDDownloadListViewController.m; sourceTree = "<group>"; };
+		274C765E1813AD6F00B13305 /* MNDDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDDataModel.h; sourceTree = "<group>"; };
+		274C765F1813AD6F00B13305 /* MNDDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDDataModel.m; sourceTree = "<group>"; };
+		274C76611813B02800B13305 /* MNDPodcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDPodcast.h; sourceTree = "<group>"; };
+		274C76621813B02800B13305 /* MNDPodcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDPodcast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +129,19 @@
 				274C76291813AA3D00B13305 /* MNDAppDelegate.h */,
 				274C762A1813AA3D00B13305 /* MNDAppDelegate.m */,
 				274C762C1813AA3D00B13305 /* Main.storyboard */,
-				274C762F1813AA3D00B13305 /* MNDViewController.h */,
-				274C76301813AA3D00B13305 /* MNDViewController.m */,
 				274C76321813AA3D00B13305 /* Images.xcassets */,
 				274C76211813AA3D00B13305 /* Supporting Files */,
+				274C764F1813AA7100B13305 /* MNDPodcastListViewController.h */,
+				274C76501813AA7100B13305 /* MNDPodcastListViewController.m */,
+				274C76551813AB1800B13305 /* Downloader.xcdatamodeld */,
+				274C76581813ACC500B13305 /* MNDDownload.h */,
+				274C76591813ACC500B13305 /* MNDDownload.m */,
+				274C765B1813AD3400B13305 /* MNDDownloadListViewController.h */,
+				274C765C1813AD3400B13305 /* MNDDownloadListViewController.m */,
+				274C765E1813AD6F00B13305 /* MNDDataModel.h */,
+				274C765F1813AD6F00B13305 /* MNDDataModel.m */,
+				274C76611813B02800B13305 /* MNDPodcast.h */,
+				274C76621813B02800B13305 /* MNDPodcast.m */,
 			);
 			path = Downloader;
 			sourceTree = "<group>";
@@ -250,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274C765D1813AD3400B13305 /* MNDDownloadListViewController.m in Sources */,
+				274C76511813AA7100B13305 /* MNDPodcastListViewController.m in Sources */,
 				274C762B1813AA3D00B13305 /* MNDAppDelegate.m in Sources */,
+				274C76601813AD6F00B13305 /* MNDDataModel.m in Sources */,
+				274C76631813B02800B13305 /* MNDPodcast.m in Sources */,
+				274C76571813AB1800B13305 /* Downloader.xcdatamodeld in Sources */,
 				274C76271813AA3D00B13305 /* main.m in Sources */,
-				274C76311813AA3D00B13305 /* MNDViewController.m in Sources */,
+				274C765A1813ACC500B13305 /* MNDDownload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +499,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		274C76551813AB1800B13305 /* Downloader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				274C76561813AB1800B13305 /* Downloader.xcdatamodel */,
+			);
+			currentVersion = 274C76561813AB1800B13305 /* Downloader.xcdatamodel */;
+			path = Downloader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 274C760F1813AA3D00B13305 /* Project object */;
 }
